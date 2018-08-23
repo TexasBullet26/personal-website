@@ -1,90 +1,91 @@
 ---
-layout: page
+layout: post
 title: Resume
-description: Employment history, education, etc.
-image: assets/images/pic11.jpg
+description: Employment and education history
+# image: assets/images/pic09.jpg
 nav-menu: true
 permalink: /resume/
+tag: resume, work, education, aboutme
 ---
 
-## Resume
+## **Glenn Alan Lanzer III**
 
----
-
-#### Glenn Alan Lanzer III
+*Age: 29*
 
 *Denton, Texas 76210*
-_Age: 29_
 
 ---
 
-##### Employment History
+### Employment History
 
 ---
 
-**Web-Developer/Freelance**
-*Self Employed - Denton, TX*
-_September 2015 - Recent_
+**Web-Developer/Freelance** @
+_**Self Employed - Denton, TX**_
+
+*September 2015 - Recent*
 
 Full-Stack JavaScript developer with experience in the following:
-_ HTML5
-_ CSS
-_ SCSS
-_ Bootstrap
-_ CSS-Grid
-_ Flexbox
-_ W3.css
-_ JavaScript
-_ ES6+
-_ React
-_ JSX
-_ Redux
-_ JSON
-_ jQuery
-_ Angular
-_ Typescript
-_ p5.js
-_ Webpack
-_ Babel
-_ ESLint
-_ Jasmine
-_ Node.js
-_ Express
-_ npm
-_ Python
-_ Ruby
-_ Ruby on Rails
-_ Jekyll
-_ Ruby Gems
-_ Golang
-_ Java
-_ C (GNU Compiler)
-_ MongoDB
-_ Mongoose
-_ MySQL
-_ YAML
-_ Markdown
-_ RESTfull APIs
-_ GraphQL
-_ AWS
-_ Heroku
-_ Firebase
-_ Git
-_ GitHub
-_ Linux and Windows Operating Systems
-_ Windows Subsystem on Linux
-_ Ubuntu, Kali Linux
-_ Bash, ZSH, Oh-My-ZSH
-_ Nano, Vim
-_ SSH
-_ Visual Studio and Visual Studio Code
-_ Google Developer Tools
+
+    * HTML5
+    * CSS
+        * SCSS
+        * Bootstrap
+        * CSS-Grid
+        * Flexbox
+        * W3.css
+    * JavaScript
+        * ES6+
+        * React
+        * JSX
+        * Redux
+        * JSON
+        * jQuery
+        * Angular
+        * Typescript
+        * p5.js
+        * Webpack
+        * Babel
+        * ESLint
+        * Jasmine
+    * Node.js
+        * Express
+    * npm
+    * Python
+    * Ruby
+        * Ruby on Rails
+        * Jekyll
+        * Ruby Gems
+    * Golang
+    * Java
+    * C (GNU Compiler)
+    * MongoDB
+    * Mongoose
+    * MySQL
+    * YAML
+    * Markdown
+    * RESTfull APIs
+    * GraphQL
+    * AWS
+    * Heroku
+    * Firebase
+    * Git
+    * GitHub
+    * Linux and Windows Operating Systems
+    * Windows Subsystem on Linux
+    * Ubuntu, Kali Linux
+    * Bash, ZSH, Oh-My-ZSH
+    * Nano, Vim
+    * SSH
+    * Visual Studio and Visual Studio Code
+    * Google Developer Tools
 
 ---
 
-**Equipment Operator**
-*Witron Logistik + Informatik GmbH - Denton, TX*
-_May 2015 - September 2015_
+**Equipment Operator** @
+_**Witron Logistik + Informatik GmbH - Denton, TX**_
+
+*May 2015 - September 2015*
 
 Responsible for the operation and maintenance of the automated Order Picking Machinery at Targets warehouse in Denton, Texas.
 
@@ -96,9 +97,10 @@ Responsible for the operation and maintenance of the automated Order Picking Mac
 
 ---
 
-**Automation Technician**
-*Texas Energy Control Products INC. - Fort Worth, TX*
-_June 2009 - May 2015_
+**Automation Technician** @
+_**Texas Energy Control Products INC. - Fort Worth, TX**_
+
+*June 2009 - May 2015*
 
 Designed and built automation equipment and packaging that was used to collect data for the production and measurement of oil/natural gas.
 
@@ -112,22 +114,20 @@ Designed and built automation equipment and packaging that was used to collect d
 
 ---
 
-##### Education
+### Education
 
 ---
 
-**BS in Computer Science**
-*University of North Texas - Denton, TX*
-_August 2009 - Present_
+**BS in Computer Science** @
+_**University of North Texas - Denton, TX**_
+
+*August 2009 - Present*
 
 ---
 
-**Self-Taught in Web Development**
-*freeCodeCamp and many other resources*
-_March 2016 - Recent_
+**Self-Taught in Web Development** @
+_**freeCodeCamp and many other resources**_
 
----
-
-##### Skills
+*March 2016 - Recent*
 
 ---
