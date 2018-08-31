@@ -22,42 +22,38 @@ logo: /assets/site/images/authors/glenn-lanzer.png
 tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
-# permalink: /:title/
+permalink: /:title/
 
 paginate: 6
 paginate_path: "/:title/blog-:num"
 
 # categories
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # "" -> all pages, "projects" -> (projects directory)
       type: "posts"
     values:
       layout: "post" # -> Use _layouts/post
       author: "Glenn Lanzer III"
 
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
 
-  -
-    scope:
+  - scope:
       path: "twil"
       type: "posts"
-      #paginate: "/alltwils/"
+    #paginate: "/alltwils/"
     values:
       layout: "post"
       author: "Glenn Lanzer III"
       category: "twil"
       permalink: "/:categories/:title/"
-      # date: "%y%m%d%M"
+  # date: "%y%m%d%M"
 
-  -
-    scope:
+  - scope:
       path: "alltwils"
       type: "posts"
     values:
@@ -65,20 +61,28 @@ defaults:
       category: "alltwils"
       permalink: "/:categories/:title/"
 
+  - scope:
+      path: "projects"
+      type: "pages"
+    values:
+      layout: "page"
+      category: "projects"
+      permalink: "/projects/"
+
 # contact form settings
 form_url: https://formspree.io/lanzertrey@gmail.com # endpoint URL to receive contact form submissions
 form_email_name: _replyto # value of the "name" attribute in the "email" field
 
 # social settings
-500px_url:
+? 500px_url
 facebook_url: https://facebook.com/trey.lanzer
 github_url: https://github.com/TexasBullet26
-gitlab_url:
+? gitlab_url
 googleplus_url: https://plus.google.com/u/0/+lanzertrey
 instagram_url: https://instagram.com/treylanzer
 linkedin_url: https://www.linkedin.com/in/glenn-lanzer
 pinterest_url: https://www.pinterest.com/glennlanzer/
-slack_url:
+? slack_url
 twitter_url: https://twitter.com/LanzerTrey26
 
 #plugins:
@@ -91,7 +95,7 @@ twitter_url: https://twitter.com/LanzerTrey26
 # External Services, leave blank to ignore or put true to use
 service:
   google_analytics_key: "UA-99924733-3"
-  disqus_key:
+  ? disqus_key
   muut: false
   google_adsense: false
 
