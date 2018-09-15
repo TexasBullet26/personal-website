@@ -1,7 +1,7 @@
 {
   "window.zoomLevel": -1,
   "editor.fontSize": 18,
-  "editor.lineHeight": 22,
+  "editor.lineHeight": 24,
   "editor.letterSpacing": 0.2,
   "workbench.editor.tabSizing": "shrink",
   "html.format.enable": true,
@@ -18,7 +18,7 @@
   "editor.minimap.showSlider": "always",
   "workbench.startupEditor": "newUntitledFile",
   "extensions.ignoreRecommendations": false,
-  "workbench.colorTheme": "Cobalt Next",
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
   "workbench.editor.tabCloseButton": "right",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"

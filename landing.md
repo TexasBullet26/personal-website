@@ -1,7 +1,8 @@
 ---
 layout: landing
 title: Glenn Lanzer III
-description: 'Full-stack developer with Knowledge<br />of many web technologies.'
+description:
+  "Full-stack developer with Knowledge<br />of many web technologies."
 image: assets/images/pic07.jpg
 nav-menu: true
 permalink: /landing.html
@@ -33,14 +34,40 @@ permalink: /landing.html
                         <li>Bash, Zsh, Nano, PowerShell</li>
                         <li>AWS, Google Cloud, and Heroku</li>
                     </ul>
-                <p>Along with my experience with these technologies, I also have six-years of work experience as an automation technicion. Programming PLCs and Scada Systems for oil/natural gas companies. If you would like to know more, feel free to contact me and look at past projects.</p>
+                <p>Along with my experience with these technologies, I also have six-years of work experience as an automation technicion. Programming PLCs and Scada Systems for oil/natural gas companies. If you would like to know more, feel free to contact me and look at past projects.</p><br>
+            <section class="resume">
+
+                <h2>Resume</h2><hr>
+
+                <h4>Work Experience</h4>
+
+                    <p><strong>Freelance</strong></p>
+                    <p><i>October 2015 - Recent</i></p>
+                    <ul>
+                        <li>Description</li>
+                    </ul>
+
+                    <p><strong>Witron Integrated Logistics</strong></p>
+                    <p><i>May 2015 - October 2015</i></p>
+                    <ul>
+                        <li>Description</li>
+                    </ul>
+
+                    <p><strong>Texas Energy Control Products</strong></p>
+                    <p><i>June 2009 - May 2015</i></p>
+                    <ul>
+                        <li>Description</li>
+                    </ul>
+                <h4>Education</h4>
+
+            </section>
         </div>
     </section>
 
     <!-- Two -->
     <section id="two" class="spotlights">
         <section>
-            <a href="projects.md" class="image"> <!-- TODO: Change to projects.html -->
+            <a href="/projects/" class="image"> <!-- TODO: Change to projects.html -->
                 <img src="assets/images/pic08.jpg" alt="" data-position="center center" />
             </a>
             <div class="content">
@@ -48,10 +75,10 @@ permalink: /landing.html
                     <header class="major">
                         <h3>Projects</h3>
                     </header>
-                    <p>If you'd like to see past work of mine, here are some projects that I've done for myself     and others.</p>
+                    <p>If you'd like to see past work of mine, here are some projects that I've done for myself and others.</p>
                     <ul class="actions">
                         <li>
-                            <a href="projects.md" class="button">Projects</a> <!-- TODO: Change to projects.html -->
+                            <a href="projects" class="button">Projects</a> <!-- TODO: Change to projects.html -->
                         </li>
                     </ul>
                 </div>

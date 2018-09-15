@@ -10,9 +10,9 @@
 
 <body>
 
-    {% include header.html %} 
-    
-    
+    {% include header.html %}
+
+
 <!-- Main -->
 <div id="main" class="alt">
 
@@ -22,8 +22,11 @@
 	<!-- Site Posts -->
   	{% for post in site.posts %}
 		<header class="major">
-			<h1>{{ post.title }}</h1>
+			<a href="{{ post.permalink }}"><h1>{{ post.title }}</h1></a>
 		</header>
+		{% if post.description %}
+			<p>{{ post.description }}</p>
+		{% endif %}
 		<!-- If Site Post has Image -->
 		{% if post.image %}
 			<span class="image main">
@@ -31,11 +34,11 @@
 			</span>
 		{% endif %}
 		<!-- If Site Post has Date -->
-		{% if post.date %}
-			<p>{{ post.date }}</p>
-		{% endif %}
+		<!--{% if post.date %}-->
+			<!--<p>{{ post.date }}</p>-->
+		<!--{% endif %}-->
 		<!-- The Posts Content -->
-		<p>{{ post.content }}</p>
+		<!--<p>{{ post.content }}</p>-->
 	{% endfor %}
 	<!-- End of Site Posts -->
 	</div>
